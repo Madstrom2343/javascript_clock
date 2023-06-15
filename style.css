@@ -1,0 +1,48 @@
+/* style.css for digital clock */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+body {
+    /* background: black; */
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #1b045a;
+    background-image: url(images/DayNightCycle.png);
+}
+
+button {
+    background: black;
+    color: white;
+    font-size: 2rem;
+    padding: 5px 15px 5px 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+button:hover {
+    background: #333333;
+}
+
+.butto {
+    color: rgb(47, 218, 180);
+    background-color: rgb(33, 56, 78);
+}
+
+.container {
+    padding: 50px;
+    height: 100vh;
+}
+
+.clock {
+    font-family: 'Space Mono', monospace;
+    font-size: 8rem;
+    box-shadow: 0 0 10px rgb(202, 200, 200);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgb(77, 75, 75) 100%);
+    border: 5px solid #ffffff;
+    border-radius: 20px;
+    padding: 50px;
+    color: #00ff3c;
+    /* -webkit-box-reflect: below 14px -webkit-gradient(linear, right top, right bottom, from(transparent), to(rgba(255, 255, 255, 0.3))); */
+}
